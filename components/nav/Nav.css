@@ -19,7 +19,7 @@ nav {
 }
 
 .logo img {
-    width: 5em;
+    width: 10rem;
     height: auto;
 }
 
@@ -78,6 +78,12 @@ nav {
     color: #ff5a96;
 }
 
+.nav-menus li:nth-child(4)::after {
+    content: "|";
+    font-size: .5em;
+    margin: 0 .25em;
+}
+
 .social-links {
     background-color: #AFAFAF;
     border-radius: 100em;
@@ -129,6 +135,10 @@ nav {
 
     .nav-menus {
         flex-direction: column;
+    }
+
+    .nav-menus li:nth-child(4)::after {
+        display: none;
     }
 
     .menu-toggle img {
