@@ -21,7 +21,7 @@
 
 #contents-main .info {
     position: absolute;
-    top: 28%;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -30,19 +30,26 @@
 }
 
 #contents-main .info .description {
-    background: url(./images/banner_ribbon.webp) no-repeat center / contain;
+    background: url(./images/banner_ribbon.webp) no-repeat center / 100% 100%;
+    margin: 0;
     white-space: nowrap;
-    font-size: .93em;
-    color: #ffffff;
+    font-family: "NanumSquareB";
+    font-size: 30px;
+    color: #ffd7eb;
     text-align: center;
-    line-height: 1.5em;
-    padding: .8em 2em;
+    line-height: 1.1em;
+    padding: .6em 1.5em 1.4em;
+}
+
+#contents-main .info .description .highlight {
+    font-family: "NanumSquareEB";
+    color: #ffffff;
 }
 
 #contents-main .info .bi {
     width: 20em;
     height: auto;
-    margin-top: 10px;
+    margin-top: -1em;
 }
 
 @media screen and (max-width: 644px) {
