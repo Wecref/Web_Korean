@@ -52,6 +52,23 @@
     margin-top: -1em;
 }
 
+.hero-description {
+    text-align: center;
+    color: #6486ff;
+}
+
+.hero-description p {
+    font-family: "NanumSquareB";
+    font-size: 1.3333rem;
+    color: #6486ff;
+    line-height: 1.6em;
+}
+
+.hero-description .highlight {
+    font-family: "NanumSquareEB";
+    color: #8e2fea;
+}
+
 @media screen and (max-width: 644px) {
     #contents-main .info .description br {
         display: none;

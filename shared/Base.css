@@ -33,7 +33,7 @@ body a {
 .newLine {
     width: 50%;
     height: .25em;
-    margin: 7em 0 0;
+    margin: 3em auto 0;
     background-color: #F5F5F5;
 }
 
