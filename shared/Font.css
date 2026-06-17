@@ -1,0 +1,18 @@
+/* @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css); */
+
+@font-face {
+    font-family: "NanumSquareB";
+    src: url(./Fonts/NanumSquareB.woff) format("truetype");
+  }
+  @font-face {
+    font-family: "NanumSquareEB";
+    src: url(./Fonts/NanumSquareEB.woff) format("truetype");
+  }
+  @font-face {
+    font-family: "NanumSquareR";
+    src: url(./Fonts/NanumSquareR.woff) format("truetype");
+  }
+  @font-face {
+    font-family: "NanumSquareL";
+    src: url(./Fonts/NanumSquareL.woff) format("truetype");
+  }

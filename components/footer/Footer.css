@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1ec8c8;
+
+    font-family: "NanumSquareB";
+    font-size: .667em;
+    color: #1ec8c8;
+}
+
+footer .footer-links {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2.7em 0 0.5em;
+    list-style: none;
+}
+
+footer .footer-links li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .footer-links img {
+    width: 2em;
+}
+
+footer .footer-info {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #009b9b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    position: relative;
+    padding: 1em 2em;
+}
+
+footer .footer-info .info-list {
+    padding: 0;
+}
+
+footer .footer-info .info-list:nth-child(1) li {
+    display: flex;
+    margin-bottom: .3em;
+}
+
+footer .footer-info .info-list:nth-child(1) li span:first-child {
+    flex: 0 0 8.5em;
+}
+
+html[lang="en"] footer .footer-info .info-list:nth-child(1) li span:first-child {
+    flex: 0 0 14.5em;
+}
+
+footer .footer-info .info-list:nth-child(3) li {
+    display: flex;
+    margin-bottom: .3em;
+}
+
+footer .footer-info .info-list:nth-child(3) li span:first-child {
+    flex: 0 0 8em;
+}
+
+html[lang="en"] footer .footer-info .info-list:nth-child(3) li {
+    display: flex;
+    margin-bottom: .3em;
+}
+
+html[lang="en"] footer .footer-info .info-list:nth-child(3) li span:first-child {
+    flex: 0 0 5em;
+}
+
+html[lang="en"] .pipe {
+    color: transparent;
+}
+
+footer .footer-info .info-list:nth-child(2) {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    top: 1em;
+    bottom: 1.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-info .info-list:nth-child(2) li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+footer .footer-info .info-list:nth-child(2) picture {
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-info .info-list:nth-child(2) img {
+    max-width: 9em;
+}
+
+@media screen and (max-width: 525px) {
+    footer .footer-links {
+        width: 30%;
+    }
+
+    footer .footer-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+    }
+
+    footer .footer-info .info-list:nth-child(2) {
+        position: static;
+        transform: none;
+    }
+}

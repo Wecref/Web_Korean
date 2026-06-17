@@ -1,0 +1,10 @@
+@charset "UTF-8";
+@import url(shared/Font.css);
+@import url(shared/Base.css);
+@import url(components/nav/Nav.css);
+@import url(components/hero/Hero.css);
+@import url(components/section-about/About.css);
+@import url(components/section-chaipang/Chaipang.css);
+@import url(components/section-games/Games.css);
+@import url(components/button/Button.css);
+@import url(components/footer/Footer.css);

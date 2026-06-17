@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+#contents-area-second .link-area .link a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url(../button/images/Website_button_pink.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 10em;
+    min-height: 4em;
+    padding: .5em 1.5em;
+    color: #ffffff;
+    font-family: "NanumSquareEB";
+    font-size: 1em;
+    gap: .2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+
+#contents-area-second .link-area:has(.charsV2) .link a {
+    background-image: url(../button/images/Website_button_yellow.png);
+}
+
+#contents-area-second .link-area .link a .title {
+    font-family: "NanumSquareR";
+}
