@@ -2,13 +2,51 @@
 
 #contents-main {
     width: 100%;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#contents-main img {
-    max-width: 100%;
-    height: auto;
+#contents-main > picture {
     display: block;
+    width: 100%;
+}
+
+#contents-main > picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#contents-main .info {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contents-main .info .description {
+    background: url(./images/banner_ribbon.webp) no-repeat center / contain;
+    white-space: nowrap;
+    font-size: .93em;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.5em;
+    padding: .8em 2em;
+}
+
+#contents-main .info .bi {
+    width: 20em;
+    height: auto;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 644px) {
+    #contents-main .info .description br {
+        display: none;
+    }
 }
