@@ -1,68 +1,165 @@
 @charset "UTF-8";
 
-#contents-area-first {
+#section-korean {
     color: #6b6b6b;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#contents-area-first .section-title {
+#section-korean .section-title {
     margin: 2em 0em;
     font-family: "NanumSquareEB";
     font-size: 2em;
     color: #6b6b6b;
 }
 
-#contents-area-first .section-title h1 {
+#section-korean .section-title h1 {
     font-size: 45px;
     color: #abc7ff;
     margin: 0;
 }
 
-#contents-area-first .section-logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: "NanumSquareB";
-    font-size: 1em;
-}
-
-#contents-area-first .section-logo img {
-    max-width: 15em;
-    width: 100%;
-}
-
-#contents-area-first .section-logo p {
-    font-size: 1em;
-}
-
-#contents-area-first .section-info {
-    font-family: "NanumSquareR";
-    font-size: 1em;
-    color: #686868;
-    width: 100%;
+#section-korean .section-intro {
+    width: fit-content;
+    margin: 0 auto;
+    background: #6486ff;
+    border-radius: 2em;
     text-align: center;
-    line-height: 1.7em;
-    margin-top: 2em;
+    padding: 0.2em 2em;
+    font-family: "NanumSquareB";
+    font-size: 1.5rem;
+    color: #c7d8ff;
+    line-height: 1.4em;
 }
 
-#contents-area-first .section-info p {
+#section-korean .section-intro .highlight {
+    font-family: "NanumSquareEB";
+    color: #ffffff;
+}
+
+#section-korean .section-intro p {
     margin: 0;
 }
 
-#contents-area-first .section-info p.section-gap {
-    margin-top: 1em;
+#section-korean .section-info-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    margin: 2em 0 0;
 }
 
-@media screen and (max-width: 768px) {
-    #contents-area-first .section-info {
-        width: 70%;
-    }
+#section-korean .section-info {
+    width: fit-content;
+    background: #fee6ff;
+    border-radius: 2em;
+    padding: 1em 2em;
+    position: relative;
 }
 
-@media screen and (max-width: 425px) {
-    #contents-area-first .section-info {
-        width: 90%;
-    }
+#section-korean .section-info::before {
+    content: "";
+    position: absolute;
+    left: -1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.2rem;
+    height: 2.4rem;
+    background: url(../../shared/images/speech_bubble.webp) no-repeat center / contain;
+    pointer-events: none;
+}
+
+#section-korean .section-info-inner {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+#section-korean .info-icon img {
+    width: 12.8rem;
+    height: auto;
+    display: block;
+    margin-right: 1.5rem;
+}
+
+#section-korean .info-texts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#section-korean .info-texts li {
+    font-family: "NanumSquareR";
+    font-size: 1rem;
+    color: #686868;
+    padding-left: 1.8em;
+    position: relative;
+    line-height: 1.8em;
+}
+
+#section-korean .info-texts li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1em;
+    height: 1em;
+    background: url(../../shared/images/Star.webp) no-repeat center / contain;
+}
+
+#section-korean .info-texts li .highlight {
+    font-family: "NanumSquareEB";
+    color: #6486ff;
+}
+
+#section-korean .section-screenshots {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+#section-korean .section-screenshots img {
+    width: 13.6rem;
+    height: auto;
+    display: block;
+}
+
+#section-korean .app-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1.5em 0;
+}
+
+#section-korean .app-buttons a {
+    display: block;
+}
+
+#section-korean .app-buttons img {
+    width: 6.93rem;
+    height: auto;
+    display: block;
+}
+
+#section-korean .book-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin: 4em 0;
+}
+
+#section-korean .book-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .8em;
+}
+
+#section-korean .book-row img {
+    display: block;
 }

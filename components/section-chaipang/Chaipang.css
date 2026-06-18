@@ -1,26 +1,26 @@
 @charset "UTF-8";
 
-#contents-area-second {
+#section-kids {
     color: #6b6b6b;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#contents-area-second .section-title {
+#section-kids .section-title {
     margin: 2em 0em;
     font-family: "NanumSquareEB";
     font-size: 2em;
     color: #6b6b6b;
 }
 
-#contents-area-second .section-title h1 {
+#section-kids .section-title h1 {
     font-size: 45px;
     color: #abc7ff;
     margin: 0;
 }
 
-#contents-area-second .section-logo {
+#section-kids .section-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,12 +28,12 @@
     font-size: 1em;
 }
 
-#contents-area-second .section-logo img {
+#section-kids .section-logo img {
     max-width: 8em;
     width: 100%;
 }
 
-#contents-area-second .section-info {
+#section-kids .section-info {
     font-family: "NanumSquareR";
     font-size: 1em;
     color: #686868;
@@ -43,15 +43,15 @@
     margin-top: 2em;
 }
 
-#contents-area-second .section-info p {
+#section-kids .section-info p {
     margin: 0;
 }
 
-#contents-area-second .section-info p.section-gap {
+#section-kids .section-info p.section-gap {
     margin-top: 1em;
 }
 
-#contents-area-second .link-area {
+#section-kids .link-area {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -61,30 +61,30 @@
     font-size: 1em;
 }
 
-#contents-area-second .link-area .link {
+#section-kids .link-area .link {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#contents-area-second .link-area .chars {
+#section-kids .link-area .chars {
     width: 100%;
     margin-top: .5em;
 }
 
-#contents-area-second .link-area .chars img {
+#section-kids .link-area .chars img {
     width: 100%;
     height: auto;
 }
 
 @media screen and (max-width: 768px) {
-    #contents-area-second .section-info {
+    #section-kids .section-info {
         width: 70%;
     }
 }
 
 @media screen and (max-width: 425px) {
-    #contents-area-second .section-info {
+    #section-kids .section-info {
         width: 90%;
     }
 }

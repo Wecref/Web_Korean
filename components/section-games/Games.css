@@ -1,26 +1,26 @@
 @charset "UTF-8";
 
-#contents-area-second {
+#section-games {
     color: #6b6b6b;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#contents-area-second .section-title {
+#section-games .section-title {
     margin: 2em 0em;
     font-family: "NanumSquareEB";
     font-size: 2em;
     color: #6b6b6b;
 }
 
-#contents-area-second .section-title h1 {
+#section-games .section-title h1 {
     font-size: 45px;
     color: #abc7ff;
     margin: 0;
 }
 
-#contents-area-second .section-logo {
+#section-games .section-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,12 +28,12 @@
     font-size: 1em;
 }
 
-#contents-area-second .section-logo img {
+#section-games .section-logo img {
     max-width: 8em;
     width: 100%;
 }
 
-#contents-area-second .section-info {
+#section-games .section-info {
     font-family: "NanumSquareR";
     font-size: 1em;
     color: #686868;
@@ -43,15 +43,15 @@
     margin-top: 2em;
 }
 
-#contents-area-second .section-info p {
+#section-games .section-info p {
     margin: 0;
 }
 
-#contents-area-second .section-info p.section-gap {
+#section-games .section-info p.section-gap {
     margin-top: 1em;
 }
 
-#contents-area-second .link-area {
+#section-games .link-area {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -61,35 +61,35 @@
     font-size: 1em;
 }
 
-#contents-area-second .link-area .link {
+#section-games .link-area .link {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#contents-area-second .link-area:has(.charsV2) {
+#section-games .link-area:has(.charsV2) {
     width: 67%;
 }
 
-#contents-area-second .link-area .charsV2 {
+#section-games .link-area .charsV2 {
     width: 100%;
     margin-top: .5em;
 }
 
-#contents-area-second .link-area .charsV2 img {
+#section-games .link-area .charsV2 img {
     width: auto;
     height: auto;
     max-width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-    #contents-area-second .section-info {
+    #section-games .section-info {
         width: 70%;
     }
 }
 
 @media screen and (max-width: 425px) {
-    #contents-area-second .section-info {
+    #section-games .section-info {
         width: 90%;
     }
 }

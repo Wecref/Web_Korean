@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-#contents-area-second .link-area .link a {
+#section-kids .link-area .link a,
+#section-games .link-area .link a {
     display: inline-flex;
     align-items: center;
     justify-content: flex-start;
@@ -21,10 +22,11 @@
     text-decoration: none;
 }
 
-#contents-area-second .link-area:has(.charsV2) .link a {
+#section-games .link-area .link a {
     background-image: url(../button/images/Website_button_yellow.png);
 }
 
-#contents-area-second .link-area .link a .title {
+#section-kids .link-area .link a .title,
+#section-games .link-area .link a .title {
     font-family: "NanumSquareR";
 }
