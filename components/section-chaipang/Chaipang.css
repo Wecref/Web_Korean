@@ -1,26 +1,26 @@
 @charset "UTF-8";
 
-#section-kids {
+#section-howto {
     color: #6b6b6b;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#section-kids .section-title {
+#section-howto .section-title {
     margin: 2em 0em;
     font-family: "NanumSquareEB";
     font-size: 2em;
     color: #6b6b6b;
 }
 
-#section-kids .section-title h1 {
+#section-howto .section-title h1 {
     font-size: 45px;
     color: #abc7ff;
     margin: 0;
 }
 
-#section-kids .section-logo {
+#section-howto .section-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,12 +28,12 @@
     font-size: 1em;
 }
 
-#section-kids .section-logo img {
+#section-howto .section-logo img {
     max-width: 8em;
     width: 100%;
 }
 
-#section-kids .section-info {
+#section-howto .section-info {
     font-family: "NanumSquareR";
     font-size: 1em;
     color: #686868;
@@ -43,15 +43,15 @@
     margin-top: 2em;
 }
 
-#section-kids .section-info p {
+#section-howto .section-info p {
     margin: 0;
 }
 
-#section-kids .section-info p.section-gap {
+#section-howto .section-info p.section-gap {
     margin-top: 1em;
 }
 
-#section-kids .link-area {
+#section-howto .link-area {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -61,30 +61,30 @@
     font-size: 1em;
 }
 
-#section-kids .link-area .link {
+#section-howto .link-area .link {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#section-kids .link-area .chars {
+#section-howto .link-area .chars {
     width: 100%;
     margin-top: .5em;
 }
 
-#section-kids .link-area .chars img {
+#section-howto .link-area .chars img {
     width: 100%;
     height: auto;
 }
 
 @media screen and (max-width: 768px) {
-    #section-kids .section-info {
+    #section-howto .section-info {
         width: 70%;
     }
 }
 
 @media screen and (max-width: 425px) {
-    #section-kids .section-info {
+    #section-howto .section-info {
         width: 90%;
     }
 }

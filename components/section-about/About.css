@@ -145,7 +145,8 @@
     display: block;
 }
 
-#section-korean .book-info {
+#section-korean .book-info,
+#section-howto .book-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,13 +154,29 @@
     margin: 4em 0;
 }
 
-#section-korean .book-row {
+#section-korean .book-row,
+#section-howto .book-row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: .8em;
+    gap: 2.5em;
 }
 
-#section-korean .book-row img {
+#section-korean .book-row picture {
+    display: flex;
+}
+
+#section-korean .book-row img,
+#section-howto .book-row img {
     display: block;
+}
+
+#section-howto .book-row picture {
+    display: flex;
+    width: calc(50% - 0.4em);
+    max-width: 22.93rem;
+}
+
+#section-howto .book-row img {
+    width: 100%;
 }
