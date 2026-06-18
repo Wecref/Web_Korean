@@ -130,30 +130,36 @@
     width: 100%;
     box-sizing: border-box;
     padding: 0 0.5em;
-}
-
-#section-learn .step-label-top {
-    top: 5%;
-    text-align: center;
-    font-family: "NanumSquareEB";
-    font-size: 1.333rem;
-    color: #ffffff;
-}
-
-#section-learn .step-label-bottom {
-    top: 35%;
-    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+#section-learn .step-label-top {
+    top: 0;
+    height: 35%;
+}
+
+#section-learn .step-label-bottom {
+    top: 35%;
+    bottom: 0;
+}
+
 #section-learn .step-label-inner {
     text-align: center;
+    line-height: 1.4em;
+}
+
+#section-learn .step-label-top .step-label-inner {
+    font-family: "NanumSquareEB";
+    font-size: 1.333rem;
+    color: #ffffff;
+}
+
+#section-learn .step-label-bottom .step-label-inner {
     font-family: "NanumSquareR";
     font-size: 0.833rem;
     color: #686868;
-    line-height: 1.4em;
 }
 
 #section-learn .step-label-bottom .highlight {
