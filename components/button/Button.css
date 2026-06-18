@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 #section-howto .link-area .link a,
-#section-games .link-area .link a {
+#section-learn .link-area .link a {
     display: inline-flex;
     align-items: center;
     justify-content: flex-start;
@@ -22,11 +22,11 @@
     text-decoration: none;
 }
 
-#section-games .link-area .link a {
+#section-learn .link-area .link a {
     background-image: url(../button/images/Website_button_yellow.png);
 }
 
 #section-howto .link-area .link a .title,
-#section-games .link-area .link a .title {
+#section-learn .link-area .link a .title {
     font-family: "NanumSquareR";
 }

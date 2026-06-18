@@ -1,26 +1,26 @@
 @charset "UTF-8";
 
-#section-games {
+#section-learn {
     color: #6b6b6b;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#section-games .section-title {
+#section-learn .section-title {
     margin: 2em 0em;
     font-family: "NanumSquareEB";
     font-size: 2em;
     color: #6b6b6b;
 }
 
-#section-games .section-title h1 {
+#section-learn .section-title h1 {
     font-size: 45px;
     color: #abc7ff;
     margin: 0;
 }
 
-#section-games .section-logo {
+#section-learn .section-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,12 +28,12 @@
     font-size: 1em;
 }
 
-#section-games .section-logo img {
+#section-learn .section-logo img {
     max-width: 8em;
     width: 100%;
 }
 
-#section-games .section-info {
+#section-learn .section-info {
     font-family: "NanumSquareR";
     font-size: 1em;
     color: #686868;
@@ -43,15 +43,15 @@
     margin-top: 2em;
 }
 
-#section-games .section-info p {
+#section-learn .section-info p {
     margin: 0;
 }
 
-#section-games .section-info p.section-gap {
+#section-learn .section-info p.section-gap {
     margin-top: 1em;
 }
 
-#section-games .link-area {
+#section-learn .link-area {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -61,35 +61,35 @@
     font-size: 1em;
 }
 
-#section-games .link-area .link {
+#section-learn .link-area .link {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#section-games .link-area:has(.charsV2) {
+#section-learn .link-area:has(.charsV2) {
     width: 67%;
 }
 
-#section-games .link-area .charsV2 {
+#section-learn .link-area .charsV2 {
     width: 100%;
     margin-top: .5em;
 }
 
-#section-games .link-area .charsV2 img {
+#section-learn .link-area .charsV2 img {
     width: auto;
     height: auto;
     max-width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-    #section-games .section-info {
+    #section-learn .section-info {
         width: 70%;
     }
 }
 
 @media screen and (max-width: 425px) {
-    #section-games .section-info {
+    #section-learn .section-info {
         width: 90%;
     }
 }
