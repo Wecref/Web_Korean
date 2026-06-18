@@ -97,6 +97,7 @@
 #section-learn .steps-wrapper {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     gap: 2em;
 }
 
@@ -104,6 +105,38 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1em;
+}
+
+#section-learn .step-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    align-self: center;
+}
+
+#section-learn .step-naver {
+    align-self: flex-end;
+}
+
+#section-learn .step-buttons img,
+#section-learn .step-naver img {
+    display: block;
+    width: 7.2rem;
+    height: auto;
+}
+
+#section-learn .section-end {
+    text-align: center;
+    margin-top: 4em;
+}
+
+#section-learn .section-end img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
 #section-learn .step-image,
@@ -147,13 +180,18 @@
 
 #section-learn .step-label-inner {
     text-align: center;
-    line-height: 1.4em;
+    line-height: 1.1em;
 }
 
 #section-learn .step-label-top .step-label-inner {
     font-family: "NanumSquareEB";
-    font-size: 1.333rem;
+    font-size: clamp(1rem, 9cqw, 1.333rem);
     color: #ffffff;
+    padding-top: 0.15em;
+}
+
+:lang(en) #section-learn .step-label-top .step-label-inner {
+    font-size: clamp(0.8rem, 7cqw, 1rem);
 }
 
 #section-learn .step-label-bottom .step-label-inner {
@@ -181,14 +219,5 @@
 #section-learn .step-ribbon {
     width: 14.4rem;
     position: relative;
-}
-
-#section-learn .step-ribbon picture {
-    display: flex;
-}
-
-#section-learn .step-ribbon img {
-    display: block;
-    width: 100%;
-    height: auto;
+    container-type: inline-size;
 }

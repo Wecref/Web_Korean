@@ -128,18 +128,25 @@
     display: block;
 }
 
-#section-korean .app-buttons {
+#section-korean .app-buttons,
+#section-learn .app-buttons {
     display: flex;
     justify-content: center;
     gap: 1em;
     margin: 1.5em 0;
 }
 
-#section-korean .app-buttons a {
+#section-learn .app-buttons {
+    margin-top: 3em;
+}
+
+#section-korean .app-buttons a,
+#section-learn .app-buttons a {
     display: block;
 }
 
-#section-korean .app-buttons img {
+#section-korean .app-buttons img,
+#section-learn .app-buttons img {
     width: 6.93rem;
     height: auto;
     display: block;
