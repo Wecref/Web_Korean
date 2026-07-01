@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: clamp(0.45rem, 1.5625vw, 30px);
 }
 
 #section-korean .section-title {
@@ -14,11 +15,6 @@
     color: #6b6b6b;
 }
 
-#section-korean .section-title h1 {
-    font-size: 45px;
-    color: #abc7ff;
-    margin: 0;
-}
 
 #section-korean .section-intro {
     width: fit-content;
@@ -28,7 +24,7 @@
     text-align: center;
     padding: 0.2em 2em;
     font-family: "NanumSquareB";
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: #c7d8ff;
     line-height: 1.4em;
 }
@@ -61,11 +57,11 @@
 #section-korean .section-info::before {
     content: "";
     position: absolute;
-    left: -1.2rem;
+    left: -1.2em;
     top: 50%;
     transform: translateY(-50%);
-    width: 1.2rem;
-    height: 2.4rem;
+    width: 1.2em;
+    height: 2.4em;
     background: url(../../shared/images/speech_bubble.webp) no-repeat center / contain;
     pointer-events: none;
 }
@@ -77,10 +73,10 @@
 }
 
 #section-korean .info-icon img {
-    width: 12.8rem;
+    width: 12.8em;
     height: auto;
     display: block;
-    margin-right: 1.5rem;
+    margin-right: 1.5em;
 }
 
 #section-korean .info-texts {
@@ -91,7 +87,7 @@
 
 #section-korean .info-texts li {
     font-family: "NanumSquareR";
-    font-size: 1rem;
+    font-size: 1em;
     color: #686868;
     padding-left: 1.8em;
     position: relative;
@@ -123,7 +119,7 @@
 }
 
 #section-korean .section-screenshots img {
-    width: 13.6rem;
+    width: 13.6em;
     height: auto;
     display: block;
 }
@@ -147,7 +143,7 @@
 
 #section-korean .app-buttons img,
 #section-learn .app-buttons img {
-    width: 6.93rem;
+    width: 6.93em;
     height: auto;
     display: block;
 }
@@ -184,12 +180,30 @@
 #section-korean .book-row img,
 #section-howto .book-row img {
     display: block;
+    width: 100%;
+    height: auto;
+}
+
+#section-korean .book-row picture {
+    display: flex;
+}
+
+#section-korean .book-info > .book-row:nth-child(1) picture {
+    flex: 0 0 15.6em;
+}
+
+#section-korean .book-info > .book-row:nth-child(2) picture {
+    flex: 0 0 9.333em;
+}
+
+#section-korean .book-info > .book-row:nth-child(3) picture {
+    flex: 0 0 14.667em;
 }
 
 #section-howto .book-row picture {
     display: flex;
     width: calc(50% - 0.4em);
-    max-width: 22.93rem;
+    max-width: 22.93em;
 }
 
 #section-howto .book-row img {

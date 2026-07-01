@@ -30,6 +30,14 @@ body a {
     color: #ff5a96;
 }
 
+#section-korean .section-title h1,
+#section-howto .section-title h1,
+#section-learn .section-title h1 {
+    font-size: 0.75em;
+    color: #abc7ff;
+    margin: 0;
+}
+
 .newLine {
     width: 50%;
     height: .25em;

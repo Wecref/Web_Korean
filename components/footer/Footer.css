@@ -4,11 +4,11 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1ec8c8;
+    background-color: #c6d8fe;
 
     font-family: "NanumSquareB";
     font-size: .667em;
-    color: #1ec8c8;
+    color: #e4eeff;
 }
 
 footer .footer-links {
@@ -16,7 +16,7 @@ footer .footer-links {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 2.7em 0 0.5em;
+    padding: 4em 0 0;
     list-style: none;
 }
 
@@ -33,7 +33,7 @@ footer .footer-links img {
 footer .footer-info {
     width: 100%;
     box-sizing: border-box;
-    background-color: #009b9b;
+    background-color: #aac7ff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
