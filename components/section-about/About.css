@@ -57,7 +57,7 @@
 #section-korean .section-info::before {
     content: "";
     position: absolute;
-    left: -1.2em;
+    left: -1.1em;
     top: 50%;
     transform: translateY(-50%);
     width: 1.2em;
@@ -208,4 +208,12 @@
 
 #section-howto .book-row img {
     width: 100%;
+}
+
+#section-learn .steps-wrapper > div:nth-child(2) .step-label-bottom .highlight {
+    color: #a839ff;
+}
+
+#section-learn .steps-wrapper > div:nth-child(3) .step-label-bottom .highlight {
+    color: #009cea;
 }
