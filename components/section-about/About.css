@@ -281,7 +281,7 @@
     #section-korean .section-screenshots {
         flex-wrap: wrap;
         justify-content: center;
-        width: clamp(55%, calc(219.7px + 26.3vw), 95%);
+        width: clamp(55%, calc(192.6px + 34.8vw), 95%);
         margin-top: 2em;
     }
 
