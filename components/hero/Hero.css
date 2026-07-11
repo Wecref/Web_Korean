@@ -128,6 +128,21 @@
     .bg-main .info .bi {
         width: clamp(200px, 52vw, 350px);
     }
+
+    .hero-description p .line {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .hero-description p .line {
+        display: inline;
+    }
+
+    .hero-description p .line:nth-child(2)::after {
+        content: "\A";
+        white-space: pre;
+    }
 }
 
 
