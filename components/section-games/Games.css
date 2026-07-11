@@ -263,4 +263,12 @@
     #section-learn .app-buttons img {
         width: clamp(100px, calc(64.3px + 11.2vw), 150px);
     }
+
+    #section-learn > div.section-end {
+        margin-top: 12em;
+    }
+
+    #section-learn .section-end img {
+        width: 60.3em;
+    }
 }
