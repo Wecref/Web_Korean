@@ -109,4 +109,11 @@
         url(../../shared/images/BG_confetti_4.webp) no-repeat center 179.3em / 100% auto;
 }
 
+@media screen and (max-width: 768px) {
+    .bg-main .info .banner-l,
+    .bg-main .info .banner-r {
+        display: none;
+    }
+}
+
 
