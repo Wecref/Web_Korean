@@ -132,6 +132,11 @@
     .hero-description p .line {
         display: block;
     }
+
+    .hero-description p {
+        font-size: clamp(12px, 3vw, 40px);
+        line-height: 1.4em;
+    }
 }
 
 @media screen and (min-width: 769px) {
