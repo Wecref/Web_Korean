@@ -65,7 +65,7 @@ div#waveDecoDown {
     }
 
     #section-korean > div.section-title > h1 {
-        font-size: 1em;
+        font-size: clamp(12px, 1em, 30px);
     }
 }
 

@@ -230,3 +230,26 @@
 #section-learn .steps-wrapper > div:nth-child(3) .step-label-bottom .highlight {
     color: #009cea;
 }
+
+@media screen and (min-width: 769px) {
+    .section-intro p .line {
+        display: inline;
+    }
+
+    .section-intro p .line:nth-child(2)::after {
+        content: "\A";
+        white-space: pre;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-intro p .line {
+        display: block;
+    }
+
+    #section-korean .section-intro {
+        padding: .2em 3em;
+        border-radius: 3em;
+        font-size: clamp(14px, 1.5em, 30px);
+    }
+}
