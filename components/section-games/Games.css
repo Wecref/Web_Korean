@@ -212,3 +212,22 @@
     position: relative;
     container-type: inline-size;
 }
+
+@media screen and (max-width: 768px) {
+    #section-learn .steps-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-learn .step-group-wrap {
+        gap: 0;
+    }
+
+    #section-learn > div.steps-wrapper > div.step-group-wrap {
+        margin-top: 1em;
+    }
+
+    #section-learn > div.steps-wrapper > div.step-group-wrap {
+        font-size: clamp(0.45rem, 2.9vw, 30px);
+    }
+}
