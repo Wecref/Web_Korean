@@ -134,7 +134,7 @@
     }
 
     .hero-description p {
-        font-size: clamp(12px, 3vw, 40px);
+        font-size: clamp(14px, 3vw, 40px);
         line-height: 1.4em;
     }
 }
