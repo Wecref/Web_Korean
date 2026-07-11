@@ -85,6 +85,12 @@
     gap: 2em;
 }
 
+#section-learn .step-group-wrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+}
+
 #section-learn .step-group {
     display: flex;
     flex-direction: column;
