@@ -64,7 +64,9 @@ div#waveDecoDown {
         margin: 9em auto 0;
     }
 
-    #section-korean > div.section-title > h1 {
+    #section-korean > div.section-title > h1,
+    #section-howto > div.section-title > h1,
+    #section-learn > div.section-title > h1 {
         font-size: clamp(16px, 3.5vw, 27px);
     }
 }
