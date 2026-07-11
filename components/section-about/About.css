@@ -294,4 +294,26 @@
     #section-korean .section-screenshots img {
         width: 100%;
     }
+
+    #section-korean .app-buttons {
+        width: clamp(220px, calc(162.9px + 17.86vw), 300px);
+        margin-top: 1em;
+        margin-bottom: 4em;
+    }
+
+    #section-korean .app-buttons img {
+        width: clamp(100px, calc(64.3px + 11.2vw), 150px);
+    }
+
+    #section-korean .book-info > .book-row:nth-child(1) picture {
+        flex: 0 0 clamp(98px, calc(33.4px + 20vw), 187px);
+    }
+
+    #section-korean .book-info > .book-row:nth-child(2) picture {
+        flex: 0 0 clamp(58px, calc(19.9px + 12vw), 112px);
+    }
+
+    #section-korean .book-info > .book-row:nth-child(3) picture {
+        flex: 0 0 clamp(92px, calc(31.5px + 18.8vw), 176px);
+    }
 }
