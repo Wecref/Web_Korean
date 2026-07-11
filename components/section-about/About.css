@@ -275,4 +275,21 @@
     #section-korean .info-texts {
         font-size: clamp(10px, 1em, 20px);
     }
+
+    #section-korean .section-screenshots {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: clamp(55%, calc(219.7px + 26.3vw), 95%);
+        margin-top: 2em;
+    }
+
+    #section-korean .section-screenshots picture {
+        flex: 0 0 calc(50% - 0.25em);
+        max-width: 250px;
+        display: flex;
+    }
+
+    #section-korean .section-screenshots img {
+        width: 100%;
+    }
 }
