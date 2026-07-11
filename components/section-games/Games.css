@@ -228,6 +228,15 @@
     }
 
     #section-learn > div.steps-wrapper > div.step-group-wrap {
-        font-size: clamp(0.45rem, 2.9vw, 30px);
+        font-size: clamp(0.45rem, calc(4.6px + 2.3vw), 30px);
+    }
+
+    #section-learn > div.steps-wrapper .step-label-top .step-label-inner {
+        font-size: clamp(17px, 9cqw, 1.333em);
+    }
+
+    #section-learn > div.steps-wrapper .step-label-bottom .step-label-inner {
+        font-size: clamp(12px, 0.833em, 1em);
+        line-height: 1.3em;
     }
 }
