@@ -19,18 +19,38 @@
     height: auto;
 }
 
-#contents-main .info {
-    position: absolute;
-    top: 32%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.bg-main .info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     font-size: clamp(0.45rem, 1.5625vw, 30px);
 }
 
-#contents-main .info .description {
+.bg-main .info .info-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-main .info .info-center > picture {
+    margin-top: 1em;
+}
+
+.bg-main .info .banner-l,
+.bg-main .info .banner-r {
+    flex-shrink: 0;
+    display: flex;
+}
+
+.bg-main .info .banner-l img,
+.bg-main .info .banner-r img {
+    display: block;
+    width: clamp(200px, 26.67vw, 512px);
+    height: auto;
+}
+
+.bg-main .info .description {
     background: url(./images/banner_ribbon.webp) no-repeat center / 100% 100%;
     margin: 0;
     white-space: nowrap;
@@ -38,16 +58,16 @@
     color: #ffd7eb;
     text-align: center;
     line-height: 1.1em;
-    padding: .6em 1.5em 1.4em;
+    padding: .6em 3.5em 1.4em;
 }
 
-#contents-main .info .description .highlight {
+.bg-main .info .description .highlight {
     font-family: "NanumSquareEB";
     color: #ffffff;
 }
 
-#contents-main .info .bi {
-    width: 20em;
+.bg-main .info .bi {
+    width: clamp(200px, 33vw - 54px, 580px);
     height: auto;
     margin-top: -1em;
 }
