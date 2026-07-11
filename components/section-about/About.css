@@ -270,10 +270,12 @@
 
     #section-korean .section-info {
         margin-top: 2em;
+        width: fit-content;
+        box-sizing: border-box;
     }
 
     #section-korean .info-texts {
-        font-size: clamp(10px, 1em, 20px);
+        font-size: clamp(10px, 1.82vw, 14px);
     }
 
     #section-korean .section-screenshots {
