@@ -124,6 +124,10 @@
     .bg-main .info {
         font-size: clamp(12px, 2.8vw, 30px);
     }
+
+    .bg-main .info .bi {
+        width: clamp(200px, 52vw, 350px);
+    }
 }
 
 
