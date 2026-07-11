@@ -73,14 +73,3 @@
     height: auto;
 }
 
-@media screen and (max-width: 768px) {
-    #section-howto .section-info {
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    #section-howto .section-info {
-        width: 90%;
-    }
-}

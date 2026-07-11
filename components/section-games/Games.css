@@ -78,18 +78,6 @@
     max-width: 100%;
 }
 
-@media screen and (max-width: 768px) {
-    #section-learn .section-info {
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    #section-learn .section-info {
-        width: 90%;
-    }
-}
-
 #section-learn .steps-wrapper {
     display: flex;
     justify-content: center;

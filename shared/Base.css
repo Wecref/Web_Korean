@@ -59,14 +59,3 @@ div#waveDecoDown {
     margin-top: 4em;
 }
 
-@media screen and (max-width: 1440px) {
-    div#waveDecoDown {
-        height: 2.5em;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    div#waveDecoDown {
-        height: 2em;
-    }
-}
