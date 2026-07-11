@@ -213,7 +213,21 @@
     container-type: inline-size;
 }
 
+#section-learn .steps-wrapper .app-buttons--inline {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
+    #section-learn > div.app-buttons {
+        display: none;
+    }
+
+    #section-learn .steps-wrapper .app-buttons--inline {
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+
     #section-learn .steps-wrapper {
         flex-direction: column;
         align-items: center;
@@ -238,5 +252,15 @@
     #section-learn > div.steps-wrapper .step-label-bottom .step-label-inner {
         font-size: clamp(12px, 0.833em, 1em);
         line-height: 1.3em;
+    }
+
+    #section-learn .app-buttons {
+        width: clamp(220px, calc(162.9px + 17.86vw), 300px);
+        margin-top: 1em;
+        margin-bottom: 4em;
+    }
+
+    #section-learn .app-buttons img {
+        width: clamp(100px, calc(64.3px + 11.2vw), 150px);
     }
 }
