@@ -105,8 +105,8 @@
     position: relative;
     background:
         url(../../shared/images/BG_confetti_2.webp) no-repeat center 26em / 100% auto,
-        url(../../shared/images/BG_confetti_3.webp) no-repeat center calc(7.833rem + 90.633rem) / 100% auto,
-        url(../../shared/images/BG_confetti_4.webp) no-repeat center calc(7.833rem + 90.633rem + 73.3rem) / 100% auto;
+        url(../../shared/images/BG_confetti_3.webp) no-repeat center 114em / 100% auto,
+        url(../../shared/images/BG_confetti_4.webp) no-repeat center 179.3em / 100% auto;
 }
 
 

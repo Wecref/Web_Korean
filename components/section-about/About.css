@@ -132,6 +132,11 @@
     margin: 1.5em 0;
 }
 
+#section-korean .app-buttons {
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
 #section-learn .app-buttons {
     margin-top: 3em;
 }
@@ -157,6 +162,10 @@
     margin: 2em 0;
 }
 
+#section-korean > div.book-info {
+    gap: .5em;
+}
+
 #section-korean .book-row,
 #section-howto .book-row {
     display: flex;
@@ -170,11 +179,11 @@
 }
 
 #section-korean .book-info > .book-row:nth-child(1) {
-    gap: 1.25em;
+    gap: 0.5em;
 }
 
 #section-korean .book-info > .book-row:nth-child(2) {
-    gap: 0.75em;
+    gap: .25em;
 }
 
 #section-korean .book-row img,
@@ -194,6 +203,10 @@
 
 #section-korean .book-info > .book-row:nth-child(2) picture {
     flex: 0 0 9.333em;
+}
+
+#section-korean .book-info > .book-row:nth-child(3) {
+    gap: 1.8em;
 }
 
 #section-korean .book-info > .book-row:nth-child(3) picture {
