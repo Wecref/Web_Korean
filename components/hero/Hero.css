@@ -137,6 +137,14 @@
         font-size: clamp(14px, 3vw, 40px);
         line-height: 1.4em;
     }
+
+    .bg-main {
+        background: none;
+    }
+
+    .hero-description::before {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 769px) {
