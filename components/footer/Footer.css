@@ -5,7 +5,6 @@ footer {
     flex-direction: column;
     align-items: center;
     background-color: #c6d8fe;
-
     font-family: "NanumSquareB";
     font-size: .667em;
     color: #e4eeff;
@@ -28,6 +27,7 @@ footer .footer-links li {
 
 footer .footer-links img {
     width: 2em;
+    height: auto;
 }
 
 footer .footer-info {
@@ -110,19 +110,73 @@ footer .footer-info .info-list:nth-child(2) img {
     max-width: 9em;
 }
 
-@media screen and (max-width: 525px) {
-    footer .footer-links {
-        width: 30%;
-    }
+.footer-col {
+    display: none;
+}
 
-    footer .footer-info {
+@media screen and (max-width: 864px) {
+    footer {
+        font-size: .857em;
+    }
+    footer .footer-links {
+        width: 31%;
+    }
+    footer .footer-row {
+        display: none;
+    }
+    .footer-col {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1.5em;
+        gap: 2.5em;
+        padding: 2em 1.5em;
+        background-color: #aac7ff;
+        width: 100%;
+        box-sizing: border-box;
     }
+    .col-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+        width: 100%;
+    }
+    .col-cards > p {
+        display: flex;
+        flex-direction: column;
+        gap: .15em;
+        margin: 0;
+        font-size: 1em;
+        line-height: 1.8;
+    }
+    .col-cards > p strong {
+        font-family: "NanumSquareEB";
+        font-size: 1em;
+        color: #e4eeff;
+    }
+    .col-cards > p span {
+        font-family: "NanumSquareR";
+        font-size: .917em;
+        color: #e4eeff;
+    }
+    .col-cards > p .label {
+        font-family: "NanumSquareR";
+        font-size: 1em;
+        color: #e4eeff;
+    }
+    .col-logo {
+        text-align: center;
+    }
+    .col-logo img {
+        max-width: 8em;
+    }
+    .col-logo p {
+        margin: .3em 0 0;
+        font-size: 1em;
+    }
+}
 
-    footer .footer-info .info-list:nth-child(2) {
-        position: static;
-        transform: none;
+@media screen and (max-width: 320px) {
+    .col-cards {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
