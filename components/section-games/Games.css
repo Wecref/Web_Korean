@@ -246,7 +246,7 @@
     }
 
     #section-learn > div.steps-wrapper .step-label-top .step-label-inner {
-        font-size: clamp(17px, 9cqw, 1.333em);
+        font-size: clamp(13.8px, 7.3cqw, 1.08em);
     }
 
     #section-learn > div.steps-wrapper .step-label-bottom .step-label-inner {
