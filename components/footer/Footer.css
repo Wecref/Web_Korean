@@ -119,7 +119,10 @@ footer .footer-info .info-list:nth-child(2) img {
         font-size: .857em;
     }
     footer .footer-links {
-        width: clamp(99px, calc(69px + 9.375vw), 150px);
+        width: clamp(130px, calc(88.8px + 12.87vw), 200px);
+    }
+    footer .footer-links img {
+        width: 3em;
     }
     footer .footer-row {
         display: none;
