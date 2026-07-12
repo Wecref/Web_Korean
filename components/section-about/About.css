@@ -326,4 +326,17 @@
         width: 100%;
         max-width: clamp(302px, 37.83em, 454px);
     }
+
+    .info-texts li .line {
+        display: block;
+    }
+
+    #section-korean .info-texts li {
+        line-height: 1.4em;
+        margin-bottom: .25em;
+    }
+
+    #section-korean .info-texts li:last-child {
+        margin-bottom: 0;
+    }
 }
