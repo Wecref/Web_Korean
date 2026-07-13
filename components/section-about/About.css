@@ -264,8 +264,8 @@
 
     #section-korean .section-info::before {
         left: 70%;
-        top: -1.5em;
-        transform: translateX(-50%) scaleX(-1);
+        top: -1.6em;
+        transform: translateX(-50%) rotate(270deg) scale(-1, -1);
     }
 
     #section-korean .section-info {
